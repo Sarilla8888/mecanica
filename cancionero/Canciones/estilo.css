@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playfair Display', serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.374);
+    height: 100%;
+    color: white;
+    font-family:'Playfair Display', serif;
+}
+
+body::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/fondo.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  z-index: -1;
+}
+
+.espacio{
+    height: 80px;
+}
+
+header{
+    padding: 20px;
+    width: 791px;
+    background-color: rgba(0, 0, 0, 0.223);
+    border: 2px;
+    border-radius: 20px;
+}
+
+.canciones{
+    background-color: rgba(0, 0, 0, 0.427);
+    border-radius: 10px;
+    width: 1200px;
+    display: flex;
+    float: left;
+    margin-left: 850px;
+    height: 50px;
+}
+
+.canciones li{
+    margin-top: 0;
+     padding: 15px;
+     text-align: center;
+    list-style-type: none;
+    float: left;
+    justify-content: center;
+    border: 1px;
+    border-color: white;
+}
+
+.canciones li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.canciones li a img{
+    margin-top: -3px;
+}
+
+.fila{
+    width: 791px;
+    gap: 15px;
+    display: flex;
+  align-items: flex-start;
+}
+
+.iz{
+    width: 388px;
+    background-color: rgba(0, 0, 0, 0.223);
+    border: 2px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.letra{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.artista{
+    width: 388px;
+    background-color: rgba(0, 0, 0, 0.223);
+    border: 2px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 55px;
+    text-align: center;
+}
+
+.anuncios{
+    display: flex;
+    width: 388px;
+    background-color: rgba(0, 0, 0, 0.223);
+    border: 2px;
+    border-radius: 20px;
+    margin: 15px;
+    flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.parriba,
+.pmabajo {
+  display: flex;
+  justify-content: center;
+}
+
+.pmedio{
+margin-top: -25px;
+      display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pabajo{
+margin-top: 0px;
+      display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.celda1 img:hover{
+    cursor:pointer
+}
+
+.regresar{
+    width: 388px;
+    background-color: rgba(0, 0, 0, 0.223);
+    border: 2px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 55px;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regresar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.regresar:hover{
+    background-color: rgba(255, 255, 255, 0.629);
+}
+
+.derechosEB{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.derechosEV{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.derechosLD{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.derechosLHTD{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.derechosOG{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.LHTD{
+    margin-left: -800px;
+    margin-top: -50px;
+}
+
+.LD{
+    margin-left: -800px;
+    margin-top: -200px;
+}
+
+.EV{
+    margin-left: -800px;
+    margin-top: -150px;
+}
+.OG{
+    margin-left: -800px;
+    margin-top: -30px;
+}
