@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    align-content: center;
+}
+
+.general{
+    margin: 0 auto;
+    height: 855px;
+    width: 1200px;
+    background-color: white;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    height: 177px;
+}
+
+h2{
+    padding-top: 45px;
+    padding-left: 32px;
+}
+
+.lista{
+    display: flex;
+    gap: 16px;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+
+.menu{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    background-color: #388E3C;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu:hover{
+    background-color: #2E7D32;
+    cursor: pointer;
+}
+
+.principal{
+    background-color: #2196F3;
+    padding: 32px;
+}
+
+.contenido{
+    background-color: #FFC107;
+    height: 133px;
+    padding-left: 16px;
+}
+
+article{
+    background-color: #FF5722;
+    height: 133px;
+    margin-top: 13px;
+    color: white;
+    padding-left: 16px;
+}
+
+aside{
+    background-color: #9C27B0;
+    height: 232px;
+    margin-top: 13px;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.notas{
+    margin-top: 24px;
+}
+h3{
+    padding-top: 30px;
+}
+
+aside li{
+    background-color: #7B1FA2;
+    list-style-type: none;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+aside li:hover{
+    background-color: #6A1B9A;
+    cursor: pointer;
+}
+.noticias{
+    font-size: 16px;
+}
+.nota2{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+footer{
+    margin-top: 22px;
+    height: 90px;
+    color: white;
+    background-color: #607d8b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
